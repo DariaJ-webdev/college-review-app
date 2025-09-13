@@ -1,0 +1,64 @@
+.Nav {
+  text-align: left;
+}
+
+.Nav-header{
+  width:100%;
+  background-color:#030353;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+  padding:6px 15px;
+  
+}
+
+.personalbrand_logo {
+  height: 100px;
+  pointer-events: none;
+  transition: transform 0.3s ease;
+}
+
+.navlink{
+  color:white;
+  text-decoration: none;
+  font-size:1.25rem;
+  position: relative;
+  text-decoration: none;
+
+}
+
+.navlink::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+  height: 3px;
+  background-color: hsl(0, 16%, 93%);
+}
+
+.navlink::after {
+  transition: width 0.3s ease;
+  width: 0;
+}
+
+.navlink:hover::after {
+  width: 100%;
+}
+
+.kitty{
+    color:hsl(0, 16%, 93%) !important;
+    padding-left: 2px;
+}
+
+.external-link-alert {
+  font-size: 0.75rem;
+  color: #666;
+  margin-top: 4px;
+}
+
+
+
+
+

@@ -1,0 +1,111 @@
+.search-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius:15px;
+  box-shadow: 0 8px 12px hsla(0, 0%, 0%, 0.1); 
+  margin-bottom:2rem;
+}
+
+.search-left {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-right {
+  flex: 1;
+  min-width: 300px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end; /* Corrected to align children to the left */
+  padding: .25rem;
+}
+
+.bestPlace {
+    height: 200px;
+}
+
+.footsteps-wrapper {
+  width: 100%; /* Added to ensure full width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.step-one {
+    margin-bottom:px;
+    text-align:center;
+    color:hsl(240, 42%, 51%);
+    font-size: 1.5rem;
+}
+
+.search-input-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  
+}
+
+.search-input {
+  flex-grow: 1;
+  padding: 12px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.search-button {
+  padding: 0.5rem 1rem;
+  background-color: hsl(240, 42%, 51%);
+  font-weight:700;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: white;
+  color:hsl(240, 42%, 40%);
+  border: 2px solid hsl(240, 42%, 40%);
+}
+
+.button-wrapper {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.reset-button {
+  margin-top: 1rem;
+  background-color: hsl(348, 100%, 70%);
+  color: hsl(240, 42%, 40%);
+  font-weight:700;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: hsl(240, 42%, 40%);
+  color:hsl(348, 100%, 70%);
+}
+
+.error-message {
+  color: #c0392b;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}

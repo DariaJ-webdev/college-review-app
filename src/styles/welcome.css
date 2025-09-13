@@ -1,0 +1,65 @@
+.welcome-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 8px 12px hsla(0, 0%, 0%, 0.1); 
+  margin: 2rem auto;
+  max-width: 900px;
+  border-radius:15px;
+}
+
+.pageintro{
+  text-align:center;
+}
+.welcome-left,
+.welcome-right {
+  flex: 1;
+  padding: 1rem;
+}
+
+.welcome-left {
+  text-align: left;
+}
+
+.welcome-right {
+  text-align: right;
+}
+
+.stepsToKnow {
+    height: 200px;
+}
+
+.title-purpose, .how-to, .pageintro {
+    color:hsl(240, 42%, 51%);
+}
+
+.title-purpose {
+    margin-bottom:10px;
+    text-align:center;
+}
+
+.font-bold {
+    font-weight:800;
+}
+
+@media screen and (max-width: 768px) {
+  .welcome-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .welcome-left,
+  .welcome-right {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .stepsToKnow {
+    height: 150px;
+  }
+}
+

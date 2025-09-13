@@ -1,0 +1,44 @@
+.footsteps-container {
+  position: relative;
+  height:100%;
+  width: 100%;
+  margin-bottom: 20px;
+  }
+
+.footsteps {
+  position: absolute;
+  top:5%;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 1.5rem;
+  color:hsl(240, 42%, 51%);
+  animation: popStep 5s step-end forwards; /* Changed duration and timing function */
+  animation-fill-mode: forwards;
+}
+
+.step-0 { left: 30%; animation-delay: 0s; }
+.step-1 { left: 40%; animation-delay: 0.5s; }
+.step-2 { left: 50%; animation-delay: 1s; }
+.step-3 { left: 60%; animation-delay: 1.5s; }
+.step-4 { left: 70%; animation-delay: 2s; }
+.step-5 { left: 80%; animation-delay: 2.5s; }
+.step-6 { left: 90%; animation-delay: 3s; }
+
+@keyframes popStep {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  10% {
+    opacity: 1;
+    visibility: visible;
+  }
+  90% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
