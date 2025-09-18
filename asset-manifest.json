@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/college-review-app/static/css/main.ee8a02e6.css",
+    "main.js": "/college-review-app/static/js/main.8846f0ca.js",
+    "static/js/453.0bd16dfc.chunk.js": "/college-review-app/static/js/453.0bd16dfc.chunk.js",
+    "static/media/personalbrand_logo.png": "/college-review-app/static/media/personalbrand_logo.74891e12b4197c3f9dfd.png",
+    "static/media/undraw_graduation.svg": "/college-review-app/static/media/undraw_graduation.5576d264e6889a63b9ec09ca95daee2c.svg",
+    "static/media/undraw_bestPlace.svg": "/college-review-app/static/media/undraw_bestPlace.d342d4f2b2082ccb46e17e865983410a.svg",
+    "static/media/undraw_stepsToKnow.svg": "/college-review-app/static/media/undraw_stepsToKnow.81b8342aa2b3ee25adf7686af94b4445.svg",
+    "index.html": "/college-review-app/index.html",
+    "main.ee8a02e6.css.map": "/college-review-app/static/css/main.ee8a02e6.css.map",
+    "main.8846f0ca.js.map": "/college-review-app/static/js/main.8846f0ca.js.map",
+    "453.0bd16dfc.chunk.js.map": "/college-review-app/static/js/453.0bd16dfc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee8a02e6.css",
+    "static/js/main.8846f0ca.js"
+  ]
+}
